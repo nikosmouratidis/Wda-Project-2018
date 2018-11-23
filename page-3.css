@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+}
+/* -----Navbar style-----*/
+.navbar {
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar .nav-hotels:hover {
+  color: #ff6600;
+}
+
+.navbar .nav-home:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.navbar .nav-profile:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.navbar .nav-hotels {
+  color: black;
+  margin-left: 25%;
+}
+
+.navbar .nav-home {
+  color: black;
+  padding-right: 5px;
+  border-right: 1px dashed #bfbfbf;
+  margin-right: 5px;
+}
+
+.navbar .nav-profile {
+  color: black;
+}
+
+.navbar .nav-home-profile {
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .nav-hotels {
+    margin-left: 18%;
+  }
+
+  .navbar .nav-home-profile {
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar .nav-hotels {
+    margin-left: 10%;
+  }
+
+  .navbar .nav-home-profile {
+    margin-right: 10%;
+  }
+}
+
+/*---------Main style-------*/
+
+.hotel-info {
+  background: #FF791F;
+  color: white;
+  font-weight: bold;
+  padding: 0.5%;
+  padding-left: 0%;
+  padding-right: 0%;
+  height: auto;
+  margin-top: 2%;
+}
+.divider{
+  position: inherit;
+  border-left:1px solid white;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
+}
+.hotel {
+  margin: 0%;
+}
+
+.row-img {
+  padding-left: 0%;
+  margin-top: 2%;
+}
+
+.room-info {
+  background: #FF791F;
+  color: white;
+  margin-top: 2%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8rem;
+  border-right: 1px dashed white;
+}
+
+.room-info p {
+  margin: 0.5%;
+}
+
+.room-description {
+  margin-top: 2%;
+  border-left: 1px solid #FF791F;
+}
+
+.room-description p {
+  margin-top:0.5%;
+  margin-bottom: 0%;
+}
+
+.btn-search {
+  background: #cc0000;
+  color: white;
+  margin-top: 5%;
+}
+.map-row {
+   margin-top: 3%;
+   padding-bottom: 5%;
+   border-bottom: 1px dashed #bfbfbf;
+}
+
+.reviews {
+  margin-top: 2%;
+  border-left: 1px solid #FF791F;
+}
+
+.reviews p {
+  margin-top:0.5%;
+  margin-bottom: 0%;
+}
+
+.blockquote-footer::before {
+    content: none;
+}
+
+.add-review {
+  margin-top: 2%;
+  border-left: 1px solid #FF791F;
+}
+
+.add-review .btn-search {
+  background: #FF791F;
+  color: white;
+  margin-top:2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------Footer style------*/
+
+.page-footer {
+  background-color: #f2f2f2;
+  margin-top: 10%;
+  border-top: 3px solid #666666;
+}
+
+.page-footer p {
+  margin-top: 1%;
+  margin-bottom: 0px;
+}

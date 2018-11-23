@@ -1,0 +1,133 @@
+/* -----Navbar style-----*/
+.navbar {
+  background-color:  #f2f2f2;
+}
+
+.navbar .nav-link :hover {
+  color: #ff6600;
+}
+
+.navbar .nav-hotels {
+  color: black;
+  margin-left: 25%;
+}
+
+.navbar .nav-home {
+  color: #ff6600;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .nav-hotels {
+    margin-left: 18%;
+  }
+
+  .navbar .nav-home {
+    margin-right: 18%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar .nav-hotels {
+    margin-left: 10%;
+  }
+
+  .navbar .nav-home {
+    margin-right: 10%;
+  }
+}
+
+/*---------Main style-------*/
+
+body {
+  background: url("images/12_Athens.jpg") no-repeat fixed center;
+  font-family: sans-serif;
+}
+
+.panel {
+  background-color: white;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin: 10% 30%;*/
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+  opacity: 0.96;
+}
+
+.panel .panel-body .select-col{
+  padding: 2px;
+}
+
+.select-city {
+  margin-top: 10%;
+  margin-bottom:10%;
+  background-color: #f2f2f2;
+  text-align-last:center;
+}
+
+.select-city:focus {
+  box-shadow: none;
+}
+
+.select-room {
+  margin-top: 10%;
+  margin-bottom:10%;
+  background-color: #f2f2f2;
+  text-align-last:center;
+}
+
+.select-room:focus {
+  box-shadow: none;
+}
+
+input {
+  text-align: center;
+}
+
+.check-in:focus, .check-out:focus {
+  box-shadow: none;
+}
+
+.panel .btn-search {
+  background: #FF791F;
+  color: white;
+  margin-top:3%;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 767px) {
+  .select-city {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .select-room {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  input {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*------Footer style------*/
+
+footer{
+  background-color: #f2f2f2;
+  border-top: 3px solid #666666;
+}
+
+footer p {
+  margin-top: 1%;
+  margin-bottom: 0px;
+}
